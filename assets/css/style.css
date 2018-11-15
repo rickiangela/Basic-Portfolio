@@ -17,7 +17,7 @@ table {
 	border-spacing: 0;
 }
 
-H1 {display: block;
+h1 {display: block;
 	font-size: 2em;
 	margin-top: 0.67em;
 	margin-left: 0;
@@ -111,7 +111,7 @@ div:not(.ports):not(.container):not(.container2):not(.bottom-left) {
 }
 img:not(#selfpic) {
 	float:left;
-	height: 90%;
+	height: auto;
 	width: 90%;
 	margin-right: 20px
 }
@@ -136,6 +136,7 @@ img:not(#selfpic) {
     padding-left: 20px;
 }
 footer {
+	position: fixed:
     display:block;
     margin:0 auto;
 	background-color: #666666;
